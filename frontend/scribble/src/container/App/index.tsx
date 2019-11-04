@@ -20,7 +20,6 @@ const App = () => (
   <IonApp>
     <IonReactRouter>
       <IonPage>
-        <Home />
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>

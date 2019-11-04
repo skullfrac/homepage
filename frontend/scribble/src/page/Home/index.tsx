@@ -9,16 +9,31 @@ import {
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 
-const Home = () => (
+import Landing from '/srv/app/frontend/src/component/Landing';
+
+
+const Home = () => {
+
+  const slideOpts = {
+    length: 2,
+    slidesPerView: 1,
+    centeredSlides: true
+  }
+
+  return (
   <>
     <IonContent>
-      <IonSlides>
-        <IonSlide>
-          <p> Hello World </p>
+      <IonSlides pager={true} options={slideOpts} >
+        <IonSlide >
+          <Landing />
+        </IonSlide>
+        <IonSlide >
+          <Landing />
         </IonSlide>
       </IonSlides>
     </IonContent>
   </>
-);
+  )
+};
 
 export default Home;

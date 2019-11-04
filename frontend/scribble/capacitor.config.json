@@ -1,0 +1,8 @@
+{
+  "appId": "com.frontend.com",
+  "appName": "frontend",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "./public",
+  "cordova": {}
+}

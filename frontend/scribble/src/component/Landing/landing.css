@@ -1,10 +1,44 @@
 #panel-cover {
-    display:         block;
-    position:        fixed;
     z-index:         900;
     width:           100%;
-    max-width:       none;
     height:          100%;
-    background:      url(./background.png) top left no-repeat #666;
+    background:      url('https://www.scherler-basel.ch/_thumbnails_/598_6_UBS_1.png?m=1493709585') top left no-repeat #666;
     background-size: cover;
+}
+
+#panel-cover--overlay {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(68, 68, 68, 0.6);
+    background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9))
+}
+
+#panel-cover--divider {
+    width: 50%;
+    margin: 20px auto;
+    border-top: 1px solid rgba(255, 255,255, 0.14);
+}
+
+#info-block {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#panel-main {
+    width: 40%;
+    z-index: 800;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#avatar-image {
+    border: 3.5px solid white;
+    margin: 10px auto;
 }

@@ -10,7 +10,7 @@ import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 
 import Landing from '/srv/app/frontend/src/component/Landing';
-
+import './home.css';
 
 const Home = () => {
 
@@ -23,7 +23,7 @@ const Home = () => {
   return (
   <>
     <IonContent>
-      <IonSlides pager={true} options={slideOpts} >
+      <IonSlides id="HomeSlides" pager={true} options={slideOpts} >
         <IonSlide >
           <Landing />
         </IonSlide>

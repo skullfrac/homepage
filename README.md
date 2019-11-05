@@ -1,4 +1,4 @@
-# REACT-IONIC TEMPLATE
+# OVERVIEW
 
 This Project is based off of my react/ionic Template to be found 
 [here](https://github.com/skullfrac/react-ionic-template)

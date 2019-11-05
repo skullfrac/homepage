@@ -6,6 +6,8 @@ import {
   IonCol,
   IonContent,
   IonGrid,
+  IonHeader,
+  IonIcon,
   IonImg,
   IonItem,
   IonLabel,
@@ -15,6 +17,7 @@ import {
 import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 import './landing.css';
+import { logoGithub } from 'ionicons/icons';
 
 import skull from '/srv/app/frontend/src/component/Landing/punisher.png';
 
@@ -29,7 +32,11 @@ const Landing = () => (
                 <IonImg src={skull} />
               </IonAvatar>
               <div id="panel-cover--divider"></div>
-              <IonLabel>Hey my Name is Ben</IonLabel>
+              <IonRow id="icon-toolbar">
+                <IonCol>
+                  <IonIcon icon={logoGithub}></IonIcon>
+                </IonCol>
+              </IonRow>
             </IonCard>
           </div>
         </IonRow>

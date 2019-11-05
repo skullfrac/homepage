@@ -2,7 +2,7 @@
     z-index:         900;
     width:           100%;
     height:          100%;
-    background:      url('https://www.scherler-basel.ch/_thumbnails_/598_6_UBS_1.png?m=1493709585') top left no-repeat #666;
+    background:      url('https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Ftageswoche.ch%2Fwp-content%2Fuploads%2F2016%2F08%2Fcms-image-004706466.jpg&sp=d79fc804d03b59825c5aab3d376b8bcd&anticache=963198') top left no-repeat #666;
     background-size: cover;
 }
 
@@ -26,13 +26,6 @@
     border-top: 1px solid rgba(255, 255,255, 0.14);
 }
 
-#info-block {
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 #panel-main {
     width: 40%;
     z-index: 800;
@@ -43,4 +36,15 @@
 #avatar-image {
     border: 3.5px solid white;
     margin: 10px auto;
+}
+
+#info-block {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#icon-toolbar {
+    font-size: 32px;
 }

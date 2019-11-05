@@ -10,6 +10,7 @@ import '@ionic/core/css/core.css';
 import '@ionic/core/css/ionic.bundle.css';
 
 import Landing from '/srv/app/frontend/src/component/Landing';
+import Blog from '/srv/app/frontend/src/component/Blog';
 import './home.css';
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
           <Landing />
         </IonSlide>
         <IonSlide >
-          <Landing />
+          <Blog />
         </IonSlide>
       </IonSlides>
     </IonContent>

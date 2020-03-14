@@ -981,20 +981,27 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.2.tgz#a51357cac60e51382442f9b53c1ce7c8661c2227"
-  integrity sha512-TQzOex1o9kdkI2gKFVGPHbZnSGDFnAdKMqLnN4qZg+WYZQj1/JRsn8l1qVD6z9Qb3ULxkHFfKGs6/RaTtlCh4w==
+"@ionic/core@4.11.10":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.10.tgz#1aa5f2e31b8d0c741471af9c272964c34155ab5a"
+  integrity sha512-PeonKl5E+VOTBeKDr83y0N/1wbfkZ5jV3PSJTsVPE3Q15LxGEO0GzBvVMgkmkssuqOI3WJPXxYWZVL8ejzSFOQ==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
 
-"@ionic/react@^4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.2.tgz#f20ac08503c3fe4801316d9e2f0fb0591ecb3f38"
-  integrity sha512-UcpJ4THU+BTsjcgKTqD7+4x0xW2b8+T2ECSpKSrdC9otmXOyV0EZE8MnBuP+siLNjdDT47FLsbrwrOZQye2Oqw==
+"@ionic/react-router@^4.11.3":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-4.11.10.tgz#88a33d8fdb672b81bfc08b6d3e1337e3de3ce43c"
+  integrity sha512-Kxya6GBKmy42A5B1Mj2jD7by4xV/MyyQrsaqr4hgXzC2z27wjg4WzMKl1L0BnaAhZCxjMOLGShgflRA4DPpnqw==
   dependencies:
-    "@ionic/core" "4.11.2"
+    tslib "*"
+
+"@ionic/react@^4.11.3":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.10.tgz#33704093d8c2686e6c9a112eb29275109d5334da"
+  integrity sha512-EF9H0HDb3MO/E8R2sBACYweQG2OzsHZBdxCYEHTt0lnaOCS2ykB93FK8f0WllP19e5Bx7jembZC4UugwjAxnTQ==
+  dependencies:
+    "@ionic/core" "4.11.10"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -1639,9 +1646,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.4, acorn@^6.2.1:
   version "6.3.0"

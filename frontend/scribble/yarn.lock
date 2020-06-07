@@ -981,20 +981,27 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.2.tgz#a51357cac60e51382442f9b53c1ce7c8661c2227"
-  integrity sha512-TQzOex1o9kdkI2gKFVGPHbZnSGDFnAdKMqLnN4qZg+WYZQj1/JRsn8l1qVD6z9Qb3ULxkHFfKGs6/RaTtlCh4w==
+"@ionic/core@4.11.10":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.10.tgz#1aa5f2e31b8d0c741471af9c272964c34155ab5a"
+  integrity sha512-PeonKl5E+VOTBeKDr83y0N/1wbfkZ5jV3PSJTsVPE3Q15LxGEO0GzBvVMgkmkssuqOI3WJPXxYWZVL8ejzSFOQ==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
 
-"@ionic/react@^4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.2.tgz#f20ac08503c3fe4801316d9e2f0fb0591ecb3f38"
-  integrity sha512-UcpJ4THU+BTsjcgKTqD7+4x0xW2b8+T2ECSpKSrdC9otmXOyV0EZE8MnBuP+siLNjdDT47FLsbrwrOZQye2Oqw==
+"@ionic/react-router@^4.11.3":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-4.11.10.tgz#88a33d8fdb672b81bfc08b6d3e1337e3de3ce43c"
+  integrity sha512-Kxya6GBKmy42A5B1Mj2jD7by4xV/MyyQrsaqr4hgXzC2z27wjg4WzMKl1L0BnaAhZCxjMOLGShgflRA4DPpnqw==
   dependencies:
-    "@ionic/core" "4.11.2"
+    tslib "*"
+
+"@ionic/react@^4.11.3":
+  version "4.11.10"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.10.tgz#33704093d8c2686e6c9a112eb29275109d5334da"
+  integrity sha512-EF9H0HDb3MO/E8R2sBACYweQG2OzsHZBdxCYEHTt0lnaOCS2ykB93FK8f0WllP19e5Bx7jembZC4UugwjAxnTQ==
+  dependencies:
+    "@ionic/core" "4.11.10"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -10109,9 +10116,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"

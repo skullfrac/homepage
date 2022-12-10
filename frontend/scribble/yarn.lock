@@ -981,20 +981,27 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
-"@ionic/core@4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.2.tgz#a51357cac60e51382442f9b53c1ce7c8661c2227"
-  integrity sha512-TQzOex1o9kdkI2gKFVGPHbZnSGDFnAdKMqLnN4qZg+WYZQj1/JRsn8l1qVD6z9Qb3ULxkHFfKGs6/RaTtlCh4w==
+"@ionic/core@4.11.13":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.11.13.tgz#10c7b0d19889671c1de9233f76f9f4167df2a8b5"
+  integrity sha512-EGin45jCjds4P1AvriujxzpIXKQzQrPQyQAgEEwUybhMNcU/9xC1sf2inG1IwMVdsc6XRBYjWvtqMPWxTWmeCw==
   dependencies:
     ionicons "^4.6.3"
     tslib "^1.10.0"
 
-"@ionic/react@^4.11.2":
-  version "4.11.2"
-  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.2.tgz#f20ac08503c3fe4801316d9e2f0fb0591ecb3f38"
-  integrity sha512-UcpJ4THU+BTsjcgKTqD7+4x0xW2b8+T2ECSpKSrdC9otmXOyV0EZE8MnBuP+siLNjdDT47FLsbrwrOZQye2Oqw==
+"@ionic/react-router@^4.11.3":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/react-router/-/react-router-4.11.13.tgz#f5dda61749c82ae0387b62ba2cf792182c92d35b"
+  integrity sha512-vvWfi4pTeQW+7qU2p3DG7M+GjhkWveFf558F2NEnI38PTlvfBV7QTiUJV1NrRI33/YKUaWqvL+sZsZJAqax9Fg==
   dependencies:
-    "@ionic/core" "4.11.2"
+    tslib "*"
+
+"@ionic/react@^4.11.3":
+  version "4.11.13"
+  resolved "https://registry.yarnpkg.com/@ionic/react/-/react-4.11.13.tgz#e1d39e5a78273ee7e2bbee00a601b880766cfded"
+  integrity sha512-4kwASzTn7IQXHO1CDX3AQGODMoKZqcLk86+DQDSjWP4cno3VYq77aFwi812yjtcIu4K7pn4M1zGz9wYyat2S3w==
+  dependencies:
+    "@ionic/core" "4.11.13"
     tslib "*"
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
@@ -8161,9 +8168,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
